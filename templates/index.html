@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dein kleiner AI-Roboter</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+    </head>
+    <body>
+        <main class="app-shell">
+            <div class="app-inner">
+                <header class="header">
+                    <div class="robot-avatar" aria-hidden="true">
+                        <div class="robot-antenna"></div>
+                        <div class="robot-face">
+                            <div class="robot-eye"></div>
+                            <div class="robot-eye"></div>
+                            <div class="robot-mouth"></div>
+                        </div>
+                    </div>
+                    <div class="header-text">
+                        <h1>Hallo, ich bin Yannick dein kleiner Roboter 🤖</h1>
+                        <p>Stell mir eine Frage </p>
+                    </div>
+                </header>
+
+                <section class="chat-card">
+                    <form method="POST">
+                        <div class="form-row">
+                            <label for="question">Deine Frage</label>
+                            <div class="input-group">
+                                <input
+                                    type="text"
+                                    id="question"
+                                    name="question"
+                                    placeholder="Frag mich alles – z.B. ‚Erkläre mir Quantenphysik einfach‘"
+                                    required
+                                />
+                                <button type="submit">
+                                    <span class="icon">➤</span>
+                                    <span>Senden</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="answer-block">
+                        <div class="answer-label">
+                            <span class="answer-label-dot"></span>
+                            <span>Antwort der AI</span>
+                        </div>
+                        {% if response %}
+                            <div class="answer-text">{{ response }}</div>
+                        {% else %}
+                            <div class="answer-empty">
+                                Noch keine Antwort. Schreib oben deine erste Frage.
+                            </div>
+                        {% endif %}
+                    </div>
+                </section>
+            </div>
+        </main>
+    </body>
+</html>
