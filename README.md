@@ -62,15 +62,6 @@ Die Anwendung läuft dann standardmäßig unter:
 
 - http://127.0.0.1:5000
 
----
-
-## Entwicklung & Anpassung
-
-- **Layout anpassen:** Styles in `static/style.css`
-- **HTML-Struktur ändern:** Template in `templates/index.html`
-- **AI-Logik anpassen:** Route und Modell-Aufruf in `app.py`
-
-Wenn du ein anderes Modell (z.B. `gemini-3.0` oder ähnliches) verwenden möchtest, kannst du es in `app.py` im Aufruf von `client.models.generate_content` ändern.
 
 
 
