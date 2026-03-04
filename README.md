@@ -13,6 +13,13 @@ Die Weboberfläche kommuniziert mit einem Backend, das auf PythonAnywhere gehost
 
 ---
 
+## Technologien
+
+- **HTML**: Struktur der Weboberfläche
+- **CSS**: Gestaltung und responsives Design
+
+---
+
 ## Voraussetzungen
 
 - Ein moderner Webbrowser (z. B. Chrome, Firefox, Edge)
