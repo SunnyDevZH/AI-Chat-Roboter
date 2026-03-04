@@ -1,66 +1,43 @@
-# AI-Chat-Roboter
+# AI-Chat-Roboter Frontend
 
-Ein kleiner, moderner Chat-Roboter auf Basis von Googles Gemini, gebaut mit Python und Flask. Du kannst dem Roboter Fragen stellen, und die Antwort der AI wird direkt in einer hübschen Weboberfläche angezeigt.
+Ein moderner Chat-Roboter mit einer hübschen Weboberfläche. Dieses Repository enthält ausschließlich den Frontend-Code für die Anwendung.
+
+Die Weboberfläche kommuniziert mit einem Backend, das auf PythonAnywhere gehostet ist. Das Backend nutzt die Gemini 2.5 AI, um intelligente Antworten auf Benutzerfragen zu generieren.
 
 ## Features
 
-- 🧠 Anbindung an Googles Gemini (über `google-genai`)
-- 🌐 Einfache Weboberfläche mit Flask
 - 🤖 Kleiner Roboter als Header-Illustration
 - 💬 Eingabefeld für Fragen + Antwortbereich
-- 🔐 API-Key wird über `.env` verwaltet (nicht im Repo)
+- ⏳ Spinner-Anzeige während des Ladens
+- 🌐 Responsives Design
 
 ---
 
 ## Voraussetzungen
 
-- Python 3.10+ (empfohlen)
-- Git
-- Ein Google Gemini API-Key
+- Ein moderner Webbrowser (z. B. Chrome, Firefox, Edge)
 
 ---
 
 ## Installation & Setup
 
-1. Repository klonen (oder lokal in dieses Verzeichnis wechseln):
+1. Repository klonen:
 
    ```bash
-   cd ~/Desktop/AI-APP
+   git clone <repository-url>
+   cd chat-roboter-frontend
    ```
 
-2. Virtuelle Umgebung erstellen und aktivieren:
+2. Öffne die Datei `index.html` in deinem Browser:
 
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
-
-3. Benötigte Python-Pakete installieren:
-
-   ```bash
-   pip install flask google-generativeai google-genai python-dotenv
-   ```
-
-4. `.env`-Datei mit deinem API-Key anlegen (falls nicht schon vorhanden):
-
-   ```env
-   GOOGLE_API_KEY=dein_gemini_api_key_hier
-   ```
-
-   Die Datei `.env` ist bereits in `.gitignore` eingetragen und wird nicht zu GitHub hochgeladen.
+   - Per Doppelklick auf die Datei
+   - Oder per Drag-and-Drop in den Browser
 
 ---
 
-## Anwendung starten
+## Vorschau
 
-```bash
-source venv/bin/activate  
-python app.py
-```
-
-Die Anwendung läuft dann standardmäßig unter:
-
-- http://127.0.0.1:5000
+Die Anwendung zeigt eine einfache Benutzeroberfläche, in der du Fragen stellen kannst. Die Antworten werden direkt angezeigt, sobald sie geladen sind.
 
 
 
