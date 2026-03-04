@@ -1,4 +1,4 @@
-# AI-Chat-Roboter Frontend
+# Frontend-AI-Chat-Roboter 
 
 Ein moderner Chat-Roboter mit einer hübschen Weboberfläche. Dieses Repository enthält ausschließlich den Frontend-Code für die Anwendung.
 
