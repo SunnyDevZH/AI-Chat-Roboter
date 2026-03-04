@@ -24,20 +24,14 @@ Die Weboberfläche kommuniziert mit einem Backend, das auf PythonAnywhere gehost
 1. Repository klonen:
 
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/SunnyDevZH/Frontend-AI-Chat-Roboter>
    cd chat-roboter-frontend
    ```
 
 2. Öffne die Datei `index.html` in deinem Browser:
 
-   - Per Doppelklick auf die Datei
-   - Oder per Drag-and-Drop in den Browser
+   - Liveserver
 
----
-
-## Vorschau
-
-Die Anwendung zeigt eine einfache Benutzeroberfläche, in der du Fragen stellen kannst. Die Antworten werden direkt angezeigt, sobald sie geladen sind.
 
 
 
