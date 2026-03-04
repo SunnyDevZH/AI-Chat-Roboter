@@ -24,7 +24,7 @@ Die Weboberfläche kommuniziert mit einem Backend, das auf PythonAnywhere gehost
 1. Repository klonen:
 
    ```bash
-   git clone <https://github.com/SunnyDevZH/Frontend-AI-Chat-Roboter>
+   git clone https://github.com/SunnyDevZH/Frontend-AI-Chat-Roboter
    cd chat-roboter-frontend
    ```
 
